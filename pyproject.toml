@@ -1,0 +1,18 @@
+[project]
+name = "llm-learn"
+version = "0.1.0"
+description = "A project for learning LLM"
+authors = [
+    {name = "mi"}
+]
+package-mode = false
+requires-python = "^3.11"
+dependencies = [
+    "langchain (>=1.4.2,<2.0.0)",
+    "langgraph (>=1.2.12,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
